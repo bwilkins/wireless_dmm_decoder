@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.6)
+    rubyserial (0.2.1)
+      ffi (~> 1.9.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubyserial
