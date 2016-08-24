@@ -48,7 +48,6 @@ class MultimeterScreen
 
   def update(line_id, line_data)
     line_vars = LINES[line_id]
-    puts line_id, line_data
     return if line_vars.nil?
     pairs = line_vars.zip(line_data)
     pairs.each do |var, data|
@@ -143,4 +142,4 @@ end
 # ss = SerialToScreen.new(port, dmm)
 # ss.flush
 # ss.update
-# dmm.decode_number
+# puts dmm.decode_number
